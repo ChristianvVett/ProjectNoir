@@ -1,0 +1,321 @@
+body{
+    background-color: #000000;
+}
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.linkFormat{
+    font-family: 'Jura', sans-serif;
+}
+.navBarline{
+    border-bottom: 1px solid white;
+}
+.imgHeader{
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.400), rgb(0, 0, 0)), url('./img/moon.jpg'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ilRazzoIMG{
+    background-image:url(./img/missile-2027068_1280.png);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1{
+    margin:0px;
+    color: white;
+    font-size:3rem;
+    font-family: 'Orbitron', sans-serif;  
+}
+h2{
+    margin:0px;
+    color:white;
+    font-size: 1.9rem;
+    font-family: 'Orbitron', sans-serif;
+}
+h3{
+    margin:0px;
+    font-size: 1.5rem;
+    font-family: 'Jura', sans-serif;
+}
+h4{
+    margin:0px;
+    color:white;
+    font-size: 1.1rem;
+    font-family: 'Jura', sans-serif;
+}
+h5{
+    margin:0px;
+    color:white;
+    font-size: 0.95rem;
+    font-family: 'Jura', sans-serif;
+}
+h6{
+    margin:0px;
+    color:white;
+    font-size: 0.75rem;
+    font-family: 'Jura', sans-serif;
+}
+.bottomLine{
+    border-bottom: 1px solid #2B9DF4;
+    width:266px;
+}
+.brdFooter{
+    max-width:600px;
+    height: 0px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgba(0, 0, 0, 0), #2B9DF4, rgba(0, 0, 0, 0)) 1;
+}
+.goToBox{
+    position:relative;
+    width: 110px;
+    height: 35px;
+}
+.brdAngular{
+    border: 2px solid #2B9DF4;
+    z-index:0;
+}
+.brdAngular::before{
+    position:absolute;
+    content:"";
+    border-left: 2px solid rgb(0, 0, 0);
+    height:15px;
+    bottom:8px;
+    left:-2px;
+    z-index:1
+}
+.brdAngular::before{
+    position:absolute;
+    content:"";
+    border-right: 2px solid rgb(0, 0, 0);
+    height:15px;
+    bottom:8px;
+    right:-2px;
+    z-index:1
+}
+.brdAngular::after{
+    position:absolute;
+    content:"";
+    border-top: 2px solid rgb(0, 0, 0);
+    width:90px;
+    top:-2px;
+    left:8px;
+    z-index:1
+}
+.brdAngular::after{
+    position:absolute;
+    content:"";
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width:90px;
+    bottom:-2px;
+    left:8px;
+    z-index:1
+}
+
+@media  screen and (min-width:280px){
+    .imgHeader{
+        height: 42vh;
+    }
+    .ilRazzoIMG{
+        height:45vh;
+    }
+    .marginArrow{
+        margin-bottom:48px;
+    }
+    .boxLAYER1{
+        margin-top:50px;
+    }
+    .boxLAYER2A{
+        margin-top:60px;
+    }
+    .boxLAYER2B{
+        margin-top:60px;
+    }
+    .boxLAYER3{
+        margin-top:60px;
+    }
+    .imgFooter{
+        background-image: url(./img/sunrise-1765027_1920.jpg);
+        height: 50vh;
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+@media  screen and (min-width:360px){
+    .imgHeader{
+        height: 37vh;
+    }
+    .marginArrow{
+        margin-bottom:42px;
+    }
+    .imgFooter{
+        background-image: url(./img/sunrise-1765027_1920.jpg);
+        height: 40vh;
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+@media  screen and (min-width:375px){
+    .imgHeader{
+        height: 37vh;
+    }
+    .marginArrow{
+        margin-bottom:42px;
+    }
+    .imgFooter{
+        background-image: url(./img/sunrise-1765027_1920.jpg);
+        height: 45vh;
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+@media  screen and (min-width:390px){
+    .imgHeader{
+        height: 29vh;
+    }
+    .marginArrow{
+        margin-bottom:41px;
+    }
+}
+@media  screen and (min-width:414px){
+    .imgHeader{
+        height: 28vh;
+    }
+    .marginArrow{
+        margin-bottom:44px;
+    }
+    .imgFooter{
+        background-image: url(./img/sunrise-1765027_1920.jpg);
+        height: 35vh;
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+@media  screen and (min-width:540px){
+    .imgHeader{
+        height: 44vh;
+    }
+    .marginArrow{
+        margin-bottom:54px;
+    }
+    .imgFooter{
+        background-image: url(./img/sunrise-1765027_1920.jpg);
+        height: 52vh;
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+@media  screen and (min-width:768px){
+    .imgHeader{
+        height: 43vh;
+    }
+    .ilRazzoIMG{
+        height:78vh;
+    }
+    .marginArrow{
+        margin-bottom:70px;
+    }
+    .imgFooter{
+        background-image: url(./img/sunrise-1765027_1920.jpg);
+        height: 32vh;
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+@media  screen and (min-width:820px){
+    .imgHeader{
+        height:40vh;
+    }
+    .ilRazzoIMG{
+        height:64vh;
+    }
+    .marginArrow{
+        margin-bottom:58px;
+    }
+    .imgFooter{
+        background-image: url(./img/sunrise-1765027_1920.jpg);
+        height: 30vh;
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+@media  screen and (min-width:912px){
+    .imgHeader{
+        height:35vh;
+    }
+    .ilRazzoIMG{
+        height:50vh;
+    }
+    .marginArrow{
+        margin-bottom:60px;
+    }
+    .imgFooter{
+        background-image: url(./img/sunrise-1765027_1920.jpg);
+        height: 29vh;
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+@media  screen and (min-width:1024px){
+    .imgHeader{
+        height: 93vh;
+    }
+    .ilRazzoIMG{
+        height:103vh;
+    }
+    .marginArrow{
+        margin-bottom:78px;
+    }
+    .imgFooter{
+        background-image: url(./img/sunrise-1765027_1920.jpg);
+        height: 75vh;
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+@media  screen and (min-width:1200px){
+    .imgHeader{
+        height: 100vh;
+    }
+    .ilRazzoIMG{
+        height:125vh;
+    }
+    .marginArrow{
+        margin-bottom:67px;
+    }
+    .blueBars{
+        margin-top:72px;
+    }
+    .boxLAYER1{
+        margin-top:173px;
+    }
+    .boxLAYER2A{
+        margin-top:150px;
+    }
+    .boxLAYER2B{
+        margin-top:190px;
+    }
+    .boxLAYER3{
+        margin-top:115px;
+    }
+    .imgFooter{
+        background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.400), rgb(0, 0, 0)), url(./img/sunrise-1765027_1920.jpg);
+        height: 100vh;
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
